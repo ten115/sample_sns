@@ -1,5 +1,6 @@
 @extends('layouts.logout')
 
+
 @section('content')
 
 {!! Form::open() !!}

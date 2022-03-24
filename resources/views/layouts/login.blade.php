@@ -8,6 +8,7 @@
     <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
     <!--スマホ,タブレット対応-->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <!--サイトのアイコン指定-->
@@ -22,13 +23,13 @@
 <body>
     <header>
         <div id = "head">
-        <h1><a><img src="images/logo.png"></a></h1>
+        <h1 ><a><img src="images/logo.png" href="/index"></a></h1>
             <div id="">
                 <div id="">
                     <p>〇〇さん<img src="images/arrow.png"></p>
                 <div>
                 <ul>
-                    <li><a href="/top">ホーム</a></li>
+                    <li><a href="/index">ホーム</a></li>
                     <li><a href="/profile">プロフィール</a></li>
                     <li><a href="/logout">ログアウト</a></li>
                 </ul>
@@ -46,12 +47,12 @@
                 <p>フォロー数</p>
                 <p>〇〇名</p>
                 </div>
-                <p class="btn"><a href="">フォローリスト</a></p>
+                <p class="btn"><a href="follows/followList">フォローリスト</a></p>
                 <div>
                 <p>フォロワー数</p>
                 <p>〇〇名</p>
                 </div>
-                <p class="btn"><a href="">フォロワーリスト</a></p>
+                <p class="btn"><a href="follows/followerList">フォロワーリスト</a></p>
             </div>
             <p class="btn"><a href="">ユーザー検索</a></p>
         </div>
