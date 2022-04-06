@@ -46,3 +46,7 @@ Route::get('post/{id}/update-form', 'PostsController@updateForm');
 Route::post('redirectList2','PostsController@update');
 
 Route::get('post/{id}/delete','PostsController@delete');
+
+Route::get('/logout', 'Auth\loginController@logout');
+
+?>
